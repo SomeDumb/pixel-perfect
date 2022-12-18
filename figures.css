@@ -1,0 +1,65 @@
+html, body {
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+ }
+
+.field {
+    background: #d9d9d9;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.triangle{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 108px solid #ce3706;
+    border-left: 100px solid transparent;
+}
+
+.rotated-rectangle{
+    position: relative;
+    top: 20px;
+    left: 177px;
+    background: #1c3f9b;
+    height: 315px;
+    width: 46px;
+    transform: rotateZ(-43deg);
+}
+
+.small-circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0da566;
+    width: 100px;
+    height: 100px;
+    top: 136px;
+    right: 75px;
+}
+
+.big-circle{
+    position: absolute;
+    overflow: hidden;
+    background: #248455;
+    top: -107px;
+    left: -95px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%
+}
+
+.squircle{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 80px;
+    bottom: 47px;
+    border-radius: 30px;
+    background-color: #9210bf;
+}
